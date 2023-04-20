@@ -1,7 +1,7 @@
 const jsonServer = require('json-server')
 const express = require('express')
 const generateToken = require('../utils/generateToken')
-const users = jsonServer.router('./server/databases/users.json').db.get('users')
+const users = jsonServer.router('./databases/users.json').db.get('users')
 const router = express.Router()
 
 router.post('/signup', (req, res) => {

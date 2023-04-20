@@ -1,6 +1,6 @@
 const jsonServer = require('json-server')
 const express = require('express')
-const organizations = jsonServer.router('./server/databases/organizations.json').db.get('organizations')
+const organizations = jsonServer.router('./databases/organizations.json').db.get('organizations')
 const router = express.Router()
 
 router.post('/', (req, res) => {

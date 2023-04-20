@@ -1,6 +1,6 @@
 const express = require('express')
 const jsonServer = require('json-server')
-const users = jsonServer.router('./server/databases/users.json').db.get('users')
+const users = jsonServer.router('./databases/users.json').db.get('users')
 
 const router = express.Router()
 
