@@ -1,13 +1,16 @@
 {
   "organizations": [
     {
-      "name": "test organization"
+      "id": "a3af2070-aba8-4f14-8746-b10a71d64f5d",
+      "name": "Test organization"
     },
     {
-      "name": "test organization 1"
+      "id": "3b77a830-eed9-4efb-9dbd-c152f527bba2",
+      "name": "Test organization 1"
     },
     {
-      "name": "test organization 2"
+      "id": "08cc666e-7ac2-4b32-892e-2788eae01bd0",
+      "name": "Test organization 2"
     }
   ]
 }
