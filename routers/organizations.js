@@ -19,4 +19,8 @@ router.post('/', (req, res) => {
   return res.json({ message: 'Organization added successfully' })
 })
 
+router.get('/', (req, res) => {
+  return res.json(organizations)
+})
+
 module.exports = router
